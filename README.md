@@ -1,8 +1,7 @@
-#========================
-#WPBaseFoundation
-#========================
 
-#A few notes
+#WPBaseFoundation
+
+##A few notes
 
 A pretty much blank theme, with Foundation5 utilizing Compass/Sass. This is meant to be a pretty much blank theme, nothing more than the tools to get started. Think of it like Bones or Blankslate.
 
