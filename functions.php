@@ -38,8 +38,8 @@ add_action( 'init', 'wpbf_register_my_menus' );
 function wpbf_register_sidebars() {
 
     register_sidebar(array(
-        'id' => 'sidebar-one',
-        'name' => 'Sidebar One',
+        'id' => 'sidebar-1',
+        'name' => __( 'Sidebar One' ),
         'description' => 'The first (primary) sidebar.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget' => '</div>',
@@ -47,8 +47,8 @@ function wpbf_register_sidebars() {
         'after_title' => '</h2>',
     ));
     register_sidebar(array(
-        'id' => 'sidebar-two',
-        'name' => 'Sidebar Two',
+        'id' => 'sidebar-2',
+        'name' => __( 'Sidebar Two' ),
         'description' => 'The second (primary) sidebar.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget' => '</div>',
@@ -56,8 +56,8 @@ function wpbf_register_sidebars() {
         'after_title' => '</h2>',
     ));
         register_sidebar(array(
-        'id' => 'sidebar-three',
-        'name' => 'Sidebar Three',
+        'id' => 'sidebar-3',
+        'name' => __( 'Sidebar Three' ),
         'description' => 'The third (primary) sidebar.',
         'before_widget' => '<div id="%1$s" class="widget %2$s">',
         'after_widget' => '</div>',

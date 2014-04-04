@@ -1,10 +1,10 @@
-<div id="sidebar-2" class="sidebar">
+<div id="sidebar-3" class="sidebar">
 
 
-	<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+	<?php if ( is_active_sidebar( 'sidebar-3' ) ) : ?>
 	
 
-		<?php dynamic_sidebar( 'sidebar-2' ); ?>
+		<?php dynamic_sidebar( 'sidebar-3' ); ?>
 		
 
 	<?php else : ?>
