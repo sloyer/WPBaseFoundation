@@ -1,0 +1,20 @@
+//Mixins
+
+//Media query for styles after medium up.
+@mixin desktop{
+  @media #{$medium-up}{
+    @content;
+  }
+ }
+
+ @mixin tablet{
+    @media #{$tablet-down}{
+    @content;
+  }
+}
+
+//Just want some padding on mobile
+@mixin full-width{
+  width:100%;
+  padding:.5em;
+}
