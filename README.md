@@ -20,15 +20,20 @@ The idea for this theme is just to be a blank starter theme any Developer/Design
 
 #SCSS
 
-1. Compile your Sass by running 'compass watch' from the command line in your themes directory
-2. I try to follow my own adaption of the "SMACSS" worfklow, you don't have to but you should least read about it @ http://smacss.com
+1. Compile your Sass by running 'compass watch' from the command line in your themes directory.
+2. You will Need the Compass Ruby Gem.
+
+#SMACSS
+1. I try to follow my own adaption of the "SMACSS" worfklow, you don't have to but you should least read about it @ http://smacss.com
 
 #Sass Globbing
 
-Sass Globbing, is an awesome tool created by Chris Eppstein.
+1. Sass Globbing, is an awesome tool created by Chris Eppstein.
 It allows us to import multiple Sass (In this theme it's including multiple Components) files at one with one import statement located in the app.scss file.
 
-To turn off globbing Removed or Comment out the 'require' in config.rb
+2. To turn off globbing Removed or Comment out the 'require' in config.rb
+
+3. You will Need the Sass-Globbing Ruby Gem.
 
 To learn more - https://github.com/chriseppstein/sass-globbing
 
