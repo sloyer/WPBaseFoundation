@@ -11,7 +11,7 @@
 
 <div class="header">
 	<div class="logo">
-		<a href="/"><?php bloginfo('template_url'); ?>Logo</a>
+		<a href="<?php bloginfo('template_url'); ?>">Logo</a>
 	</div>
 	<nav>
 		<?php wp_nav_menu( array('menu' => 'Main Menu' )); ?> 
