@@ -1,9 +1,8 @@
-
 #WPBaseFoundation
 
 ##A few notes
 
-A pretty much blank theme, with Foundation5 utilizing Compass/Sass. This is meant to be a pretty much blank theme, nothing more than the tools to get started. Think of it like Bones or Blankslate.
+A pretty much blank theme, with Foundation5 utilizing Compass/Sass. This is meant to be a pretty much blank theme, nothing more than the tools to get started. Think of it like Bones or Blankslate. Only use what you need.
 
 #### Please Feel free to Contribute back
 The idea for this theme is just to be a blank starter theme any Developer/Designer can enjoy using, cleaner base template files, more functions that can be uncommented and used, Mixins, Structure, anything you find useful, feel free to put a pull request in.
