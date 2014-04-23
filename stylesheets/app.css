@@ -1624,35 +1624,36 @@ a.meanmenu-reveal {
   display: block;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
+  z-index: 999;
 }
-/* line 45, ../scss/components/_meanmenu.scss */
+/* line 46, ../scss/components/_meanmenu.scss */
 .mean-container a.meanmenu-reveal span {
   display: block;
   background: #222;
   height: 3px;
   margin-top: 3px;
 }
-/* line 52, ../scss/components/_meanmenu.scss */
+/* line 53, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav {
   float: left;
   width: 100%;
   background: #fff;
   margin-bottom: 1em;
 }
-/* line 58, ../scss/components/_meanmenu.scss */
+/* line 59, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul {
   padding: 0;
   margin: 0;
   width: 100%;
   list-style-type: none;
 }
-/* line 63, ../scss/components/_meanmenu.scss */
+/* line 64, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li {
   position: relative;
   float: left;
   width: 100%;
 }
-/* line 67, ../scss/components/_meanmenu.scss */
+/* line 68, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li a {
   display: block;
   float: left;
@@ -1666,7 +1667,7 @@ a.meanmenu-reveal {
   text-decoration: none;
   text-transform: uppercase;
 }
-/* line 80, ../scss/components/_meanmenu.scss */
+/* line 81, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li li a {
   width: 80%;
   text-align: center;
@@ -1678,32 +1679,32 @@ a.meanmenu-reveal {
   text-shadow: none !important;
   visibility: visible;
 }
-/* line 91, ../scss/components/_meanmenu.scss */
+/* line 92, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li.mean-last a {
   border-bottom: none;
   margin-bottom: 0;
 }
-/* line 96, ../scss/components/_meanmenu.scss */
+/* line 97, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li li li a {
   width: 70%;
   padding: 1em 15%;
 }
-/* line 101, ../scss/components/_meanmenu.scss */
+/* line 102, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li li li li a {
   width: 60%;
   padding: 1em 20%;
 }
-/* line 105, ../scss/components/_meanmenu.scss */
+/* line 106, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li li li li li a {
   width: 50%;
   padding: 1em 25%;
 }
-/* line 112, ../scss/components/_meanmenu.scss */
+/* line 113, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li a:hover {
   background: #252525;
   background: rgba(255, 255, 255, 0.1);
 }
-/* line 116, ../scss/components/_meanmenu.scss */
+/* line 117, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li a.mean-expand {
   margin-top: 1px;
   width: 26px;
@@ -1720,11 +1721,11 @@ a.meanmenu-reveal {
   border-left: 1px solid rgba(255, 255, 255, 0.4) !important;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2) !important;
 }
-/* line 131, ../scss/components/_meanmenu.scss */
+/* line 132, ../scss/components/_meanmenu.scss */
 .mean-container .mean-nav ul li a.mean-expand:hover {
   background: rgba(0, 0, 0, 0.9);
 }
-/* line 139, ../scss/components/_meanmenu.scss */
+/* line 140, ../scss/components/_meanmenu.scss */
 .mean-container .mean-push {
   float: left;
   width: 100%;
@@ -1733,7 +1734,7 @@ a.meanmenu-reveal {
   clear: both;
 }
 
-/* line 148, ../scss/components/_meanmenu.scss */
+/* line 149, ../scss/components/_meanmenu.scss */
 .mean-nav .wrapper {
   width: 100%;
   padding: 0;
@@ -1741,20 +1742,20 @@ a.meanmenu-reveal {
 }
 
 /* Fix for box sizing on Foundation Framework etc. */
-/* line 156, ../scss/components/_meanmenu.scss */
+/* line 157, ../scss/components/_meanmenu.scss */
 .mean-container .mean-bar {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
-/* line 160, ../scss/components/_meanmenu.scss */
+/* line 161, ../scss/components/_meanmenu.scss */
 .mean-container .mean-bar * {
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
-/* line 167, ../scss/components/_meanmenu.scss */
+/* line 168, ../scss/components/_meanmenu.scss */
 .mean-remove {
   display: none !important;
 }
