@@ -7,11 +7,13 @@ function require_scripts() {
     wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/stylesheets/app.css', true ); 
     wp_register_script('jquery', get_template_directory_uri() . '/javascripts/vendor/jquery.js', true ); 
     wp_register_script('modernizr', get_template_directory_uri() . '/javascripts/vendor/modernizr.js', true );   
+    wp_register_script('foundation', get_template_directory_uri() . '/javascripts/foundation/foundation.min.js', true ); 
     wp_register_script('mean-menu', get_template_directory_uri() . '/javascripts/mean-menu/jquery.meanmenu.2.0.min.js', true );
     wp_register_script('scripts', get_template_directory_uri() . '/javascripts/scripts.js', true );
     wp_enqueue_script( 'stylesheet' );  
     wp_enqueue_script( 'jquery' ); 
     wp_enqueue_script( 'modernizr' );   
+    wp_enqueue_script( 'foundation' );  
     wp_enqueue_script( 'mean-menu' );
     wp_enqueue_script( 'scripts' );
 
