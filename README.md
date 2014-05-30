@@ -9,13 +9,18 @@ The idea for this theme is just to be a blank starter theme any Developer/Design
 
 #Foundation 5
 
-1. This theme is utulizing Zurb's Foundation. 
+1. This theme is utulizing Zurb's Foundation 5. 
 2. Its already set up and ready to rock. Simply just start laying out your grids in your templates or Sass.
 3. To Start, just the Grid is being imported, you can import other Foundation Components throught the _settings.scss file; including the Kitchen Sink.
 4. If you ever need to upgrade foundation, just run "foundation update" from the command line from the themes folder.
 5. By Default, only the Foundation Grid is in place, you can import select components or the kitchen sink in the Foundation Setting
-6.Foundation settings are set in 'scss/_settings.scss'.
-7. By Default, a Mixin is in place setting the breakpoint of grid at 768px.
+6. Foundation settings are set in 'scss/_settings.scss'.
+7. By Default, a Mixin is in place setting the breakpoint of grid at 768px, you can of course change this.
+
+#Javascript
+
+1. Foundation is Initialized in the footer.php.
+2. Foundation.min.js is register and enqueue in the functions.php - This load all Foundation Core and all Javascript plugins. To be selective with what Foundation/JS you want to load visit - http://foundation.zurb.com/docs/javascript.html
 
 #SCSS
 
@@ -43,14 +48,10 @@ To learn more - https://github.com/chriseppstein/sass-globbing
 3. You can disable Mean Menu by commenting/deleting the script calling it. The script is located in 'javascripts/scripts.js'
 4. I enjoy Mean Menu specailly when doing small sites fast, but by all means use TopBar or anything else. This is just a base theme to get running. 
 
-#Javascripts
-
-1. Put any extra javascript plugins under the javascripts folder.
-2. If you ever need to run a script, simply place it in 'javascripts/scripts.js' or do whatever you want.
-
 #Theme Functions
+
 1. In the Theme's Functions.php file you will see thats where all scripts/stylesheets are being loaded in from. 
 2. A main Menu and an Extra Menu are being called there.
 3. Three sidebars are Registered
-4.  There is lots of commented out stuff, look through it, some could be handy. 
+4. There is lots of commented out stuff, look through it, some could be handy. 
 
