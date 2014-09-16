@@ -3,6 +3,6 @@
   "version": "0.0.1",
   "private": "true",
   "dependencies": {
-    "foundation": "~5.1.0"
+    "foundation": "zurb/bower-foundation"
   }
 }
