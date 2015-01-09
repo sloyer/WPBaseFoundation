@@ -1,5 +1,14 @@
 #WPBaseFoundation
 
+##Theme is no longer supported
+First, let me say thanks for those who have been utlizing this bare minimal Foundation theme. It saddens me to say that I do not reccomend using this theme anymore as it no longer has support by me and is outdated. I switched employers and since then this theme has suffered as I had no need for it. 
+
+I am excited to announce I am creating a new minimal base theme utlizing Foundation but more importantly will be utlizing the Twig templating engine. 
+
+When the theme is released I will post a link here!
+
+Also feel free to use this theme still, the repo will remain public but use at your own risk. 
+
 ##A few notes
 
 A pretty much blank theme, with Foundation5 utilizing Compass/Sass. This is meant to be a pretty much blank theme, nothing more than the tools to get started. Think of it like Bones or Blankslate. Only use what you need.
