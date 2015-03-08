@@ -9,13 +9,21 @@
 	<?php wp_head(); ?>
 </head>
 
-<div class="header">
-	<div class="logo">
-		<a href="<?php bloginfo('template_url'); ?>">Logo</a>
-	</div>
-	<nav>
-		<?php wp_nav_menu( array('menu' => 'Main Menu' )); ?> 
+<header class="header">   
+	<nav class="top-bar" data-topbar role="navigation">
+	 
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+	    </li>
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
+	 
+	  <section class="top-bar-section">
+	    <?php display_primary_menu(); ?>
+	  </section>
+	 
 	</nav>
-</div>
+</header>
 
 <body <?php body_class(); ?>>
