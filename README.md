@@ -41,13 +41,6 @@ It allows us to import multiple Sass (In this theme it's including multiple Comp
 
 To learn more - https://github.com/chriseppstein/sass-globbing
 
-#Mean Menu
-
-1. By default, 'Mean Menu', comes working in the theme, with the breakpoint set at 769px.
-2. Documentation can be found at - http://www.meanthemes.com/plugins/meanmenu/
-3. You can disable Mean Menu by commenting/deleting the script calling it. The script is located in 'javascripts/scripts.js'
-4. I enjoy Mean Menu specailly when doing small sites fast, but by all means use TopBar or anything else. This is just a base theme to get running. 
-
 #Theme Functions
 
 1. In the Theme's Functions.php file you will see thats where all scripts/stylesheets are being loaded in from. 
