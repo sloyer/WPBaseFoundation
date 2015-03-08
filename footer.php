@@ -3,8 +3,10 @@
 
 </footer>
 
-<script type="text/javascript">
-	$(document).foundation()
+<script>
+jQuery(document).ready(function($) {
+	$(document).foundation();
+});
 </script>
 
 </body>

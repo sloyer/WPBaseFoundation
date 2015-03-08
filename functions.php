@@ -1,11 +1,18 @@
 <?php
 
-
 //Enquing all Scripts here, Stylesheets, Foundation, Mean-Menu. You can place all jQuery in scripts.js or enque your own file.
 
 function require_scripts() {  
-    wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/stylesheets/app.css', true ); 
-    wp_register_script('jquery', get_template_directory_uri() . '/javascripts/vendor/jquery.js', true ); 
+    wp_enqueue_style( 'stylesheet', get_template_directory_uri() . '/stylesheets/app.css', true );
+    /** 
+    * We need to remove Wordpress loading in it's jQuery for conflicts.
+    * I prefer to use the one tied to Foundations release.
+    */
+    if( !is_admin()){
+        wp_deregister_script('jquery');
+        wp_register_script('jquery', get_template_directory_uri() . '/javascripts/vendor/jquery.js', true ); 
+        wp_enqueue_script('jquery');
+    }
     wp_register_script('modernizr', get_template_directory_uri() . '/javascripts/vendor/modernizr.js', true );   
     wp_register_script('foundation', get_template_directory_uri() . '/javascripts/foundation/foundation.min.js', true ); 
     wp_register_script('scripts', get_template_directory_uri() . '/javascripts/scripts.js', true );
